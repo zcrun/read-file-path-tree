@@ -1,0 +1,36 @@
+{
+  "name": "read-file-path-tree",
+  "description": "recursively read file path of all files in a directory",
+  "version": "0.0.1",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "devDependencies": {
+    "standard": "^14.3.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.11.0"
+  },
+  "homepage": "",
+  "keywords": [
+    "directory",
+    "fs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "standard": {
+    "ignore": [
+      "test/fixture"
+    ]
+  }
+}
